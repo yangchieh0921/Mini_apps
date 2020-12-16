@@ -1,0 +1,166 @@
+.remove-prof {
+    padding: 8px 12px;
+    color: white;
+    background-color: #333;
+    border: thin solid blue;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    &:hover { background-color: blue; }
+}
+
+.prof-button-modifier { text-decoration: none; }
+
+.bio-data { display: none; }
+
+.show-bio { display: block !important;}
+
+.main-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+.main-header-inner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 100px;
+  }
+
+  .main-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+.main-header-inner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 100px;
+  }
+
+  .social-media-icon {
+    text-align: left;
+  }
+
+  .main-header-instagram {
+      width: 40px;
+      height: 40px;
+  }
+
+  .main-header-facebook {
+      width: 40px;
+      height: 40px;
+
+  }
+
+  .header-facebook-wraper {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  .header-instagram-wraper {
+    display: inline-block;
+  }
+
+  .header-logo-wrapper {
+    display: inline-block;
+  }
+
+
+  .main-header-logo {
+    display: block;
+    width: 240px;
+    height: auto;
+  }
+
+  .main-header-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .main-header-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .main-header-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .main-header-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .nav li a {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav li a:hover {
+    color: gold;
+  
+    text-decoration: underline;
+    transform: scale(1.125);
+  }
+  
+  .nav li a:focus {
+    color: gold;
+    text-decoration: underline;
+    transform: scale(1.125);
+  }
+
+  .main-footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .main-footer-nav li:last-child {
+    margin-right: 0;
+    display: inline-block;
+  }
+  
+  .nav li a {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    color: gold;
+  
+    text-decoration: underline;
+    transform: scale(1.125);
+  }
+  
+  .nav li a:focus {
+    color: gold;
+    text-decoration: underline;
+    transform: scale(1.125);
+  }
+  
+  .main-footer-nav {
+    padding-left: 550px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .logo {
+      width: 180px;
+      height: 90px;
+  }
