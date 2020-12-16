@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI APP</title>
+
+    <link rel="stylesheet" href=css/mian.css> <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js">
+    </script>
+</head>
+
+<body>
+    <main id="app">
+        <main id="app">
+            <header class="main-header">
+                <div class="main-header-inner">
+                    <div>
+                        <img class="logo" src="images/mini.png">
+                    </div>
+                    <div class="main-header-right">
+                        <nav class="main-header-nav-wrapper nav">
+            
+                                <ul class="main-header-nav">
+                                <li><a href="index.html">Models</a></li>
+                                <li><a href="index.html">Shopping Tool</a></li>
+                                <li><a href="index.html">Discover</a></li>
+                                <li><a href="index.html">Oweners</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+    
+            </header>
+        <h1 @click="clickHeader">EXPLORE MORE CORNERS.</h1>
+        <p>{{anotherMessage}}</p>
+
+        <!-- show the prof data in profs array -->
+       <section>
+        <div class="type-box">
+            <h2> {{ car. model }}</h2>
+            <type-car v-for="(carProduct, info) in carList" :key="info" @change="clickImg" :caritem="carProduct" :ind="info" :show="show"></type-car>
+        </div>
+       </section>
+    </main>
+</body>
+<script src="js/main.js" type="module"></script>
+
+</html>
